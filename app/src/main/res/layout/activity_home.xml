@@ -7,6 +7,8 @@
     android:background="@color/BackGround">
 
 
+
+
     <View
         android:id="@+id/view"
         android:layout_width="414dp"
@@ -17,6 +19,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent" />
 
+
     <ImageView
         android:id="@+id/imageView2"
         android:layout_width="84dp"
@@ -26,17 +29,17 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:srcCompat="@drawable/home" />
-
     <ImageView
         android:id="@+id/imageView4"
         android:layout_width="65dp"
         android:layout_height="82dp"
+        android:onClick="telaperfil"
         android:layout_marginEnd="10dp"
         android:layout_marginBottom="1dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:srcCompat="@drawable/person_icon" />
-
+        app:srcCompat="@drawable/person_icon"
+        />
     <ImageView
         android:id="@+id/imageView5"
         android:layout_width="65dp"
@@ -52,21 +55,16 @@
         android:layout_width="65dp"
         android:layout_height="82dp"
         android:layout_marginStart="339dp"
-        android:layout_marginBottom="559dp"
-        app:layout_constraintBottom_toTopOf="@+id/view"
         app:layout_constraintStart_toStartOf="parent"
-        app:srcCompat="@drawable/baseline_search_24" />
+        app:srcCompat="@drawable/baseline_search_24"
+        tools:layout_editor_absoluteY="8dp" />
 
-    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:orientation="vertical">
-
-        <androidx.recyclerview.widget.RecyclerView
-            android:id="@+id/recyclerView"
-            android:layout_width="match_parent"
-            android:layout_height="match_parent" />
-
-    </LinearLayout>
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Button"
+        tools:layout_editor_absoluteX="163dp"
+        tools:layout_editor_absoluteY="341dp" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
