@@ -1,0 +1,13 @@
+<!-- shape_cylinder.xml -->
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="rectangle">
+
+    <!-- Forma de cilindro -->
+    <corners
+        android:radius="60dp" /> <!-- Raio para cantos arredondados -->
+
+    <!-- Cor de fundo do cilindro -->
+    <solid
+        android:color="#FFC107" /> <!-- Cor amarela -->
+
+</shape>

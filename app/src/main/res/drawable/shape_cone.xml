@@ -1,0 +1,16 @@
+<!-- shape_cone.xml -->
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="oval">
+
+    <!-- Cor de fundo do cone -->
+    <solid
+        android:color="#FF5722" /> <!-- Cor laranja -->
+
+    <!-- Formato do cone -->
+    <corners
+        android:topLeftRadius="0dp"
+        android:topRightRadius="0dp"
+        android:bottomLeftRadius="100dp"
+        android:bottomRightRadius="100dp" />
+
+</shape>

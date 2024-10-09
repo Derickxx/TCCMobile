@@ -2,4 +2,16 @@
 <resources>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
+    <color name="red">#FF0000</color>
+    <color name="cian">#686464</color>
+    <color name="cian_green">#00FFE1</color>
+    <color name="colorContainer">#053209</color>
+    <color name="fonts">#03CC15</color>
+    <color name="footer">#26572A</color>
+    <color name="BackGround">#2d2c38</color>
+    <color name="container">#27262e</color>
+    <color name="fundo">#2d2c38</color>
+    <color name="botao">#3763f4</color>
+    <color name="botao_precionado">#2444AE</color>
+    <color name="font_text">#19f5aa</color>
 </resources>
