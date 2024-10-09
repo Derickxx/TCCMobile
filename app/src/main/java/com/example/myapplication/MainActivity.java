@@ -15,17 +15,17 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        RecyclerView recyclerView = findViewById(R.id.recyclerView);
-        recyclerView.setLayoutManager(new LinearLayoutManager(this));
+       // RecyclerView recyclerView = findViewById(R.id.recyclerView);
+        //recyclerView.setLayoutManager(new LinearLayoutManager(this));
 
-        List<Product> products = new ArrayList<>();
-        products.add(new Product("Produto 1", "$10.00"));
-        products.add(new Product("Produto 2", "$15.00"));
-        products.add(new Product("Produto 3", "$20.00"));
+        //List<Product> products = new ArrayList<>();
+        //products.add(new Product("Produto 1", "$10.00"));
+        //products.add(new Product("Produto 2", "$15.00"));
+        //products.add(new Product("Produto 3", "$20.00"));
         // Adicione mais produtos conforme necessário
 
-        ProductAdapter adapter = new ProductAdapter(this, products);
-        recyclerView.setAdapter(adapter);
+        //ProductAdapter adapter = new ProductAdapter(this, products);
+        //recyclerView.setAdapter(adapter);
     }
 }
 

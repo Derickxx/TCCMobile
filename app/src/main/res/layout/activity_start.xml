@@ -4,8 +4,9 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@color/fundo"
     app:layoutDescription="@xml/activity_start_scene"
-    tools:context=".Start" android:background="@color/fundo">
+    tools:context=".Start">
 
     <androidx.constraintlayout.widget.ConstraintLayout
         android:id="@+id/BackgroundLayout"
