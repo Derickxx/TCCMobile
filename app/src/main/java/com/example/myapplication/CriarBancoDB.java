@@ -14,7 +14,7 @@ public class CriarBancoDB {
             politica = new StrictMode.ThreadPolicy.Builder().permitAll().build();
             StrictMode.setThreadPolicy(politica);
             Class.forName("net.sourceforge.jtds.jdbc.Driver");
-            conn = DriverManager.getConnection("jdbc:jtds:sqlserver://172.19.1.152;"+
+            conn = DriverManager.getConnection("jdbc:jtds:sqlserver://172.25.224.1;"+
                     "databaseName=bd_padaria3_fk;user=sa;passaword=@ITB123456");
         }
         catch(SQLException e){

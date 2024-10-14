@@ -42,7 +42,7 @@ public class Login extends AppCompatActivity {
 
             Class.forName("net.sourceforge.jtds.jdbc.Driver").newInstance();
             conexao =
-                    DriverManager.getConnection("jdbc:jtds:sqlserver://172.19.1.152;databaseName=bd_padaria3_fk;user=sa;password=@ITB123456;");
+                    DriverManager.getConnection("jdbc:jtds:sqlserver://172.25.224.1;databaseName=bd_padaria3_fk;user=sa;password=@ITB123456;");
         }catch (Exception e){
             Toast.makeText(getApplicationContext(), e.getMessage(),
                     Toast.LENGTH_SHORT).show();

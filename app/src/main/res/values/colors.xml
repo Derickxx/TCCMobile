@@ -14,4 +14,9 @@
     <color name="botao">#3763f4</color>
     <color name="botao_precionado">#2444AE</color>
     <color name="font_text">#19f5aa</color>
+    <color name="redVariantion">#570000</color>
+    <color name="redLight">#EF5858</color>
+    <color name="purple">#673AB7</color>
+    <color name="purpleDark">#281C3C</color>
+    <color name="purpleLight">#9B63FF</color>
 </resources>
