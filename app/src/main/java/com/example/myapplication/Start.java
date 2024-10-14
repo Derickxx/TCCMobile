@@ -19,7 +19,7 @@ public class Start extends AppCompatActivity {
      new Handler().postDelayed(new Runnable() {
             @Override
             public void run() {
-startActivity(new Intent(Start.this, PreviewLogin.class));
+startActivity(new Intent(Start.this, Card_info.class));
 //finish();
             }
      }, 3000);

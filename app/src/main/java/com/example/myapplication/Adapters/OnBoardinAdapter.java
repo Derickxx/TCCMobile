@@ -23,29 +23,28 @@ public class OnBoardinAdapter extends PagerAdapter {
 
     int titles[] = {
             R.string.title1,
-            R.string.title1,
             R.string.title2,
             R.string.title3,
-            R.string.title4,
+
     };
     int subtitles[] = {
             R.string.subtitle1,
             R.string.subtitle2,
             R.string.subtitle3,
-            R.string.subtitle4,
+
     };
     int images[] = {
             R.drawable.icon_planet,
             R.drawable.person_icon,
             R.drawable.mulher,
-            R.drawable.terra,
+
 
     };
     int bg[] = {
             R.drawable.bg1,
             R.drawable.bg2,
             R.drawable.bg3,
-            R.drawable.bg4,
+
 
     };
 
@@ -70,9 +69,21 @@ public class OnBoardinAdapter extends PagerAdapter {
         ImageView image = v.findViewById(R.id.slideImg);
         TextView title = v.findViewById(R.id.TextTitle);
         TextView subtitle  = v.findViewById(R.id.subText);
-        ConstraintLayout layout = v.findViewById(R.id.sliderLayuot);
+         ConstraintLayout layout = v.findViewById(R.id.sliderLayuot);
 
+        image.setImageResource(images[position]);
+        title.setText(titles[position]);
+        subtitle.setText(subtitles[position]);
+        layout.setBackgroundResource(bg[position]);
 
+        container.addView(v);
+
+return v;
     }
+    @Override
+    public void destroyItem(@NonNull ViewGroup container, int position, @NonNull Object object){
+        container.removeView((ConstraintLayout) object);
+    }
+
 
 }
